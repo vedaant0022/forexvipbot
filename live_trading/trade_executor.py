@@ -34,7 +34,7 @@ def place_trade(symbol, direction, lot_size, sl, tp, magic=20250701, comment="Cr
         "magic": magic,
         "comment": comment,
         "type_time": mt5.ORDER_TIME_GTC,
-        "type_filling": mt5.ORDER_FILLING_IOC  # Instant or Cancel for crypto
+        "type_filling": mt5.ORDER_FILLING_IOC 
     }
 
     result = mt5.order_send(request)
