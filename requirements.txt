@@ -2,3 +2,5 @@ MetaTrader5
 pandas
 matplotlib
 ta
+requests
+python-dotenv
