@@ -65,7 +65,6 @@ print("🚀 Live engine initialized.")
 while True:
     now = datetime.utcnow()
 
-    # Optional: skip weekends
     if now.weekday() >= 5:
         print("⏸ Market closed (weekend). Sleeping...")
         time.sleep(60 * 15)
