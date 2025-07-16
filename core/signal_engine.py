@@ -112,3 +112,7 @@ def generate_signals(df_d1, df_h4, df_h1):
     signals['tp_level'] = signals.apply(lambda x: get_tp_level(x['close'], x['direction']), axis=1)
 
     return signals[['time', 'close', 'direction', 'tp_level']]
+
+
+
+
