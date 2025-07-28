@@ -52,7 +52,7 @@ if not connect_to_mt5():
     raise Exception("❌ Could not connect to MetaTrader 5. Please ensure it's open and logged in.")
 
 # Step 2: Define broker-corrected symbols
-symbols = ['XAUUSDm', 'US500m', 'USDJPYm', 'GBPUSDm', 'GBPJPYm', 'USDCHFm', 'AUDUSDm', 'EURJPYm', 'BTCUSDm','US30m']
+symbols = ['XAUUSDm', 'US500m', 'USDJPYm', 'GBPUSDm', 'GBPJPYm', 'USDCHFm', 'AUDUSDm', 'EURJPYm', 'BTCUSDm','US30m','EURUSDm']
 
 # Step 3: Loop through each symbol
 for symbol in symbols:
